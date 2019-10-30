@@ -15,7 +15,7 @@ $(".list-group-item").click((event) => {
     console.log(id)
 })
 
-$("#i-arrow-left").click((event) => {
+$(".resturantName").click((event) => {
     $("#mainNav").removeClass("hidden")
     $("#crossRoadsContainer").removeClass("hidden")
     $(".resturantContainer").addClass("hidden")
